@@ -8,3 +8,4 @@ My solutions to exercises of University of Helsinki’s Java Programming II Cour
 - Part 11: Class diagrams, packages, exceptions, processing files
 - Part 12: Type parameters, arraylist and hashmap implementation, randomness, multidimensional arrays
 - Part 13: GUI with JavaFX
+- Part 14: Data visualization, multimedia, maven and third-party libraries

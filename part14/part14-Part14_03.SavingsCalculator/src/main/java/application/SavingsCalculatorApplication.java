@@ -33,8 +33,6 @@ public class SavingsCalculatorApplication extends Application{
             chart.addDataToInterest((int) ui.getFirstSlider().getValue(), ui.getSecondSlider().getValue());
         });
         
-        
-        
         layout.setTop(ui.getView());
         layout.setCenter(chart.getView());
         
@@ -45,5 +43,4 @@ public class SavingsCalculatorApplication extends Application{
         
     }
     
-
 }

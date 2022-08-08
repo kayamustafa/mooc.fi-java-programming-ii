@@ -20,7 +20,7 @@ public class SavingsCalculatorApplication extends Application{
         
         BorderPane layout = new BorderPane();
         
-        DecimalFormat df = new DecimalFormat("0.00");
+        DecimalFormat df = new DecimalFormat("0.0");
         
         ui.getFirstSlider().valueProperty().addListener((observable, oldValue, newValue) ->{
             ui.setFirstLabel((String.valueOf(newValue.intValue())));

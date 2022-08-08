@@ -165,8 +165,8 @@ public class TicTacToeApplication extends Application{
     
     private void gameEnded(Label turnText){
         if(horizontallyEnded() || verticallyEnded() || diagonallyEnded()){
-            turnText.setText(winner + " Wins!"); // Convert this to turnText.setText("The end!") to pass the test.
-            end = true; // and this to false to guarantee. (Test wants program to keep running even if someone wins)
+            turnText.setText(winner + " Wins!"); // Replace this with turnText.setText("The end!") to pass the test.
+            end = true; // and replace this with false to guarantee. (Test wants program to keep running even if someone wins)
         }
         else if(tableIsFull()){
             turnText.setText("Draw!");
